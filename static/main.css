@@ -1,0 +1,57 @@
+
+body {
+  background: #f8f8f8;
+  color: #000000;
+  margin-top: 5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #130101;
+}
+
+.content-section {
+  background: #ffffff;
+  padding: 30px 50px;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.winner-section {
+  background: #ffffff;
+  padding: 30px 50px;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.page-title {
+  color: #444444;
+}
+
+a.page-title:hover {
+  color: #428bca;
+  text-decoration: none;
+}
+
+.page-content {
+  white-space: normal;
+}
+
+.bg-steel {
+  background-color: #fa2525;
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #0c5ef5;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+
+  

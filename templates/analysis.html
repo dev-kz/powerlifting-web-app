@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+{% block content %}
+	<h2>Analysis: </h2>
+	<br></br>
+
+	<h5>Age Distribution:</h5>
+	<body>
+		<img src="static/images/age.png" alt="null" width="500" height="300" />
+	</body>
+	<br></br>
+
+	<h5>Highest Score (Winner):</h5>
+	<p>Score is calculated based on combined lifts divided by athelete's weight.</p>
+	{% for val in won%}
+	<page class="media content-section">
+		<div class="media-body">
+		  <div class="page-metadata">
+			<h4 class="text-success">{{ val.name }}</h4>
+			<small class="text-muted">{{ val.age }} years old from {{val.country}} </small>
+		  </div>
+		  <h6 class="text-success">Score: {{ val.score }}</h6>
+		</div>
+	  </page>
+	{% endfor %}
+	
+	<h5>Lowest Score:</h5>
+	{% for val in lost%}
+	<page class="media content-section">
+		<div class="media-body">
+			<div class="page-metadata">
+			<h4 class="text-danger">{{ val.name }}</h4>
+			<small class="text-muted">{{ val.age }} years old from {{val.country}} </small>
+			</div>
+			<h6 class="text-danger">Score: {{ val.score }}</h6>
+		</div>
+		</page>
+	{% endfor %}
+
+{% endblock content %}

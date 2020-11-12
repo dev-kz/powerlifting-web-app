@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block content %}
+	<h2>Atheletes Report:</h2>
+	
+	{% for val in info%}
+		<page class="media content-section">
+		  <div class="media-body">
+		    <div class="page-metadata">
+		      <h4 class="mr-2">{{ val.name }}</h4>
+			  <small class="text-muted">{{ val.age }} years old from {{val.country}} </small>
+			  <!-- <small class="text-muted">{{ val.weight }} lb</small> -->
+		    </div>
+		    <h6 class="page-content">Squats (lb): {{ val.squats }}</h6>
+			<h6 class="page-content">Deadlift (lb): {{ val.deadlift }}</h6>
+			<h6 class="page-content">Bench (lb): {{ val.bench }}</h6>
+			<h6 class="page-content">Score: {{ val.score }}</h6>
+			<h6 class="page-content">Attempted: {{ val.date }}</h6>
+		  </div>
+		</page>
+	{% endfor %}
+{% endblock content %}

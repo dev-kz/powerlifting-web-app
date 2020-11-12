@@ -1,0 +1,68 @@
+[
+	{
+		"id": 1,
+		"name" : "William James",
+		"country" : "Canada",
+		"age": 31,
+		"weight" : 255,
+		"deadlift" : 615,
+		"squats": 525,
+		"bench": 315,
+		"date" : "2020-02-19"
+	},
+	{
+		"id": 2,
+		"name" : "Chongan Wu",
+		"country" : "China",
+		"age": 23,
+		"weight" : 178,
+		"deadlift" : 495,
+		"squats": 315,
+		"bench": 235,
+		"date" : "2020-04-12"
+	},
+	{
+		"id": 3,
+		"name" : "Jordan Clarkson",
+		"country" : "United States",
+		"age": 35,
+		"weight" : 185,
+		"deadlift" : 395,
+		"squats": 275,
+		"bench": 185,
+		"date" : "2019-05-16"
+	},
+	{
+		"id": 4,
+		"name" : "Smith Jackson",
+		"country" : "Australia",
+		"age": 22,
+		"weight" : 165,
+		"deadlift" : 315,
+		"squats": 225,
+		"bench": 135,
+		"date" : "2020-05-08"
+	},
+	{
+		"id": 5,
+		"name" : "Omar Diab",
+		"country" : "Egypt",
+		"age": 26,
+		"weight" : 170,
+		"deadlift" : 395,
+		"squats": 275,
+		"bench": 185,
+		"date" : "2020-01-18"
+	},
+	{
+		"id": 6,
+		"name" : "Carlos Fernandis",
+		"country" : "Brazil",
+		"age": 43,
+		"weight" : 278,
+		"deadlift" : 795,
+		"squats": 550,
+		"bench": 495,
+		"date" : "2020-03-20"
+	}
+]
